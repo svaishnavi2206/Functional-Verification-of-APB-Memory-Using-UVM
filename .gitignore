@@ -1,0 +1,9 @@
+*.log
+*.wlf
+*.ucdb
+*.vcd
+*.key
+transcript
+work/
+simv
+simv.daidir/
