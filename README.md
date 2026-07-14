@@ -152,7 +152,7 @@ The simulation completed successfully, demonstrating the execution of the develo
 ## Output Waveforms
 
 <p align="center">
-    <img src="reports/mem_output waveforms.png" alt="Output Waveform" width="900"/>
+    <img src="reports/mem_output_waveforms.png" alt="Output Waveform" width="900"/>
 </p>
 
 The waveform confirms the correct execution of memory read and write operations. It verifies the expected behavior of the address, data, control, and handshake signals during APB transactions.
@@ -160,7 +160,7 @@ The waveform confirms the correct execution of memory read and write operations.
 ## Functional Coverage Report
 
 <p align="center">
-    <img src="reports/mem_functional coverage reports.png" alt="Functional Coverage" width="900"/>
+    <img src="reports/mem_functional_coverage_reports.png" alt="Functional Coverage" width="900"/>
 </p>
 
 Functional coverage was collected to measure the completeness of the verification process. The coverage results confirm that different transaction types, addresses, and memory operations were exercised during simulation, increasing confidence in the correctness of the design.
