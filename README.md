@@ -119,17 +119,13 @@ The verification environment is developed using the **Universal Verification Met
   <img src="reports/tb_arc.jpg" alt="UVM Testbench Architecture" width="900">
 </p>
 
+## Test Cases
+
 | Test Case | Description |
-|------------|-------------|
-| Write Transaction | Verifies successful data write to the specified memory address. |
-| Read Transaction | Verifies correct data retrieval from the specified memory address. |
-| Write-Read Transaction | Performs a write followed by a read to verify data integrity. |
-| Random Write | Generates constrained-random write transactions across multiple memory addresses. |
-| Random Read | Generates constrained-random read transactions to verify stored data. |
-| Back-to-Back Transactions | Verifies consecutive read and write operations without protocol violations. |
-| Boundary Address Test | Validates memory access at the lowest and highest valid addresses. |
-| Reset Verification | Ensures proper DUT behavior before and after reset. |
-| Functional Coverage | Confirms that memory addresses, transaction types, and data values are exercised during simulation. |
+|-----------|-------------|
+| Write Test | Verifies APB write operation by storing data into specified memory addresses. |
+| Read Test | Verifies APB read operation by retrieving stored data from memory locations. |
+| Read-Write Test | Performs write followed by read operations to validate data integrity. |
 
 ---
 
